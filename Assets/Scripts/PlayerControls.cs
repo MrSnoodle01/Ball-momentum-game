@@ -37,4 +37,15 @@ public class PlayerControls : MonoBehaviour
             rb2d.linearVelocity = directionToMouse * totalVelocity;
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Spring"))
+        {
+            // boost in direction of spring
+            Vector2 springDirection = collision.gameObject.transform.up;
+            // maybe change this so that instead of 10f it's based on current velocity
+            rb2d.linearVelocity += springDirection * 10f;
+        }
+    }
 }

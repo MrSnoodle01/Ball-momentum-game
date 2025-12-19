@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 34e1c8807030b9947bc074ae0e2da062
+guid: a598e3b5a972a374c973f4179b0c80ba
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7584026233139504035
-    second: cereal_0
+      213: 1759384508628929331
+    second: checkerboard_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cereal_0
+      name: checkerboard_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1500
-        height: 1500
+        width: 300
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a326895dafdf3960800000000000000
-      internalID: 7584026233139504035
+      spriteID: 33b072493e69a6810800000000000000
+      internalID: 1759384508628929331
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cereal_0: 7584026233139504035
+      checkerboard_0: 1759384508628929331
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
